@@ -136,13 +136,13 @@ section {
 
 .misssion-card p{
     color: rgb(66, 66, 66);
-    font-size: 16px;
+    font-size: 1.33rem;
     font-weight: 400;
 }
 
 .illustrator{
-    max-width: 141px;
-    max-height: 141px;
+    max-width: 11.75rem;
+    max-height: 11.75rem;
 }
 
 .illustrator img{
@@ -156,15 +156,15 @@ section {
     align-items: center;
     justify-content: space-between;
     text-align: left;
-    border-radius: 26px;
-    max-width: 1250px;
+    border-radius: 2.17rem;
+    max-width: 104.17rem;
     margin: 0 auto;
     background: rgba(255, 89, 89, 0.1);
 }
 
 .develop-image{
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 33.33rem;
+    max-height: 33.33rem;
 }
 
 .develop-image img{
@@ -173,28 +173,28 @@ section {
 }
 
 .develop-card{
-    max-width: 800px;
+    max-width: 66.66rem;
 }
 
 .develop-card h3{
-    font-size: 36px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
 .develop-card p{
     color: rgb(62, 62, 62);
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: 400;
-    margin: 18px 0;
+    margin: 1.5rem 0;
 }
 
 .develop-btn{
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 1.34rem;
     font-weight: 500;
-    padding: 14px 32px;
+    padding: 1.17rem 2.67rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5;
     background: rgb(255, 89, 89);
     margin-bottom: 1rem;
 }
@@ -205,15 +205,15 @@ section {
     align-items: center;
     justify-content: space-between;
     text-align: left;
-    border-radius: 26px;
-    max-width: 1250px;
+    border-radius: 2.17rem;
+    max-width: 104.17rem;
     margin: 0 auto;
     background: rgb(255, 244, 214);
 }
 
 .global-image{
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 33.33rem;
+    max-height: 33.33rem;
 }
 
 .global-image img{
@@ -222,39 +222,86 @@ section {
 }
 
 .global-card{
-    max-width: 600px;
+    max-width: 50rem;
     padding-left: 3rem;
 }
 
 .global-card h3{
-    font-size: 36px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
 .global-card p{
     color: rgb(62, 62, 62);
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: 400;
-    margin: 18px 0;
+    margin: 1.5rem 0;
 }
 
 .global-btn{
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 1.34rem;
     font-weight: 500;
-    padding: 14px 32px;
+    padding: 1.17rem 2.67rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     background: rgb(255, 89, 89);
     margin-bottom: 1rem;
 }
 
 
+/* <!-- Build Xone Application --> */
+.xone h2{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.xone-container{
+    justify-content: space-between;
+    align-items: center;
+    background: #F0EFFB;
+    border-radius: 2.17rem;
+    max-width: 104.17rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.xone-image{
+    max-width: 25rem;
+    max-height: auto;
+}
 
+.xone-image img{
+    max-width: 100%;
+    max-height: 100%;
+}
 
+.xone-card{
+    max-width: 66.67rem;
+    padding: 3rem;
+}
 
+.xone-card h3{
+    font-size: 4rem;
+font-weight: 700;
+}
 
+.xone-card p{
+    color: rgb(62, 62, 62);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
 
+.xone-btn{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 1.34rem;
+    font-weight: 500;
+    padding: 1.16rem 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(255, 89, 89);
+}
 
 
 
@@ -301,7 +348,7 @@ section {
 
     .misssion-cards, 
     .develop-container, 
-    .global-container 
+    .global-container, .xone-container 
     {
         flex-direction: column;
         align-items: center;
@@ -315,7 +362,7 @@ section {
         text-align: center;
     }
     .develop-container, 
-    .global-container
+    .global-container, .xone-container
     {
         text-align: center;
     }
